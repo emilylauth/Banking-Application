@@ -1,0 +1,26 @@
+{
+  "name": "badbank_capstone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node puppeteer.js",
+    "start": "node index.js",
+    "build": "node run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws": "^0.0.3-2",
+    "axios": "^0.27.2",
+    "cli": "^1.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "express-graphql": "^0.12.0",
+    "firebase": "^9.8.1",
+    "graphql": "^15.8.0",
+    "mongodb": "^4.4.1",
+    "puppeteer": "^13.5.2"
+  }
+}
